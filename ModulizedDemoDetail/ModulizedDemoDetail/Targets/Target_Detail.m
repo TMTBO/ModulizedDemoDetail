@@ -12,8 +12,9 @@
 
 @implementation Target_Detail
 
-- (UIViewController *)Action_viewController:(NSDictionary *)dic {
+- (UIViewController *)Action_viewController:(NSDictionary *)content {
     DetailViewController *viewController = [[DetailViewController alloc] init];
+    viewController.content = content[@"content"];
     return viewController;
 }
 

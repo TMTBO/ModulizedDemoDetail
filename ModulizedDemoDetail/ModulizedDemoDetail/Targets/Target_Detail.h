@@ -10,6 +10,6 @@
 
 @interface Target_Detail : NSObject
 
-- (UIViewController *)Action_viewController:(NSDictionary *)dic;
+- (UIViewController *)Action_viewController:(NSDictionary *)content;
 
 @end

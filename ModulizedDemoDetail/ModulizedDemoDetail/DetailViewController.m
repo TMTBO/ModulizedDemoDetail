@@ -19,7 +19,8 @@
     self.view.backgroundColor = [UIColor whiteColor];
     
     UILabel *label = [[UILabel alloc] initWithFrame:[UIScreen mainScreen].bounds];
-    label.text = @"This is the detail View";
+    label.text = _content;
+    label.textAlignment = NSTextAlignmentCenter;
     [self.view addSubview:label];
 }
 
